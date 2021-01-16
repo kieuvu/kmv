@@ -244,6 +244,7 @@
     display: flex;
     align-items: center;
     font-family:Ubuntu,sans-serif;
+    object-fit: cover;
 }
 .introduce {
     align-items: center;
