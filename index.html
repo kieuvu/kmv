@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<body>
+    <!-- Header -->
+    <section class="header">
+        <div class="header__container grid">
+            <!-- Logo -->
+            <div class="logo">
+                <div class="logo__img">
+                    <a href="#" class="logo__img-link"><img src="./assets/images/avatar.png" alt=""
+                            class="logo__img-image"></a>
+                </div>
+                <div class="logo__text">
+                    <h1 class="logo__text-1">KIEU<span class="logo__text-2">V<span class="logo__text-3">U.</span></span>
+                    </h1>
+                </div>
+            </div>
+            <!-- NavBar -->
+            <div class="navBar">
+                <nav class="nav">
+                    <ul class="navBar__list">
+                        <li class="navBar__item-list">
+                            <a href="#" class="navBar__item-list-link color-1">HOME</a>
+                        </li>
+                        <li class="navBar__item-list">
+                            <a href="#" class="navBar__item-list-link">ABOUT</a>
+                        </li>
+                        <li class="navBar__item-list">
+                            <a href="#" class="navBar__item-list-link">CONTACT</a>
+                        </li>
+                        <li class="navBar__item-list">
+                            <a href="#" class="navBar__item-list-link">SERVICES</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- navReponsive -->
+                <div class="hiddenResponsive">
+                    <input type="checkbox" name="menu" id="menu">
+                    <label class="mni" for="menu"><i class="menuIcon fas fa-bars"></i></label>
+                    <label for="menu" class="nav__overlay"></label>
+                    <nav class="resp">
+                        <label for="menu"><i class="menuIcon2 fas fa-times"></i></label>
+                        <div class="button2">
+                            <input class="btn" type="button" value="Sign In">
+                            <input class="btn" type="button" value="Login">
+                        </div>
+                        <ul class="navBarResp__list">
+                            <li class="navBarResp__item-list">
+                                <a href="#" class="navBarResp__item-list-link color-1"><i class="navIcon fas fa-home"></i>HOME</a>
+                            </li>
+                            <li class="navBarResp__item-list">
+                                <a href="#" class="navBarResp__item-list-link"><i class="navIcon fas fa-question-circle"></i>ABOUT</a>
+                            </li>
+                            <li class="navBarResp__item-list">
+                                <a href="#" class="navBarResp__item-list-link"><i class="navIcon fas fa-id-card"></i>CONTACT</a>
+                            </li>
+                            <li class="navBarResp__item-list">
+                                <a href="#" class="navBarResp__item-list-link"><i class="navIcon fas fa-cogs"></i>SERVICES</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- SignIn SignUp Button -->
+            <div class="button">
+                <input class="btn" type="button" value="Sign In">
+                <input class="btn" type="button" value="Login">
+            </div>
+        </div>
+    </section>
+    <!-- main -->
+    <section class="main">
+        <div class="grid">
+            <div class="introduce">
+                <h1 class="line_1">Hello !!!</h1>
+                <h2 class="line_2">My name's <span class="line_2-2">Kiều Vũ</span></h2>
+                <h2 class="line_3">Front-end Developer in VietNam with <span class="line_3-3">CSS</span></h2>
+            </div>
+            <div class="social">
+                <i class="icon fab fa-facebook-square"></i>
+                <i class="icon fab fa-twitter-square"></i>
+                <i class="icon fas fa-phone-square-alt"></i>
+            </div>
+        </div>
+    </section>
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
